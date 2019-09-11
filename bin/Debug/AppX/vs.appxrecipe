@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-CHMBSGC</Machine>
+    <WindowsUser>Owner</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>060ec948-7713-4aa3-a417-e2cb1216f703</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Owner</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>2D4F52E49CA8A2EA8F26B39012FA6A123621FB80F704C0BA1F990CDDA094CDAD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>060ec948-7713-4aa3-a417-e2cb1216f703_1.0.0.0_neutral__ckpvgz13cfhxc</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>060ec948-7713-4aa3-a417-e2cb1216f703_ckpvgz13cfhxc!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>060ec948-7713-4aa3-a417-e2cb1216f703</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Owner</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-09-11T00:18:45.262</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\images\alexa.jpg">
+      <PackagePath>images\alexa.jpg</PackagePath>
+      <Modified>2019-09-04T20:06:59.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\images\asiabball.jpg">
+      <PackagePath>images\asiabball.jpg</PackagePath>
+      <Modified>2019-05-02T04:06:50.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\images\background-beverage.jpg">
+      <PackagePath>images\background-beverage.jpg</PackagePath>
+      <Modified>2019-09-04T19:34:18.024</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\images\background-code.jpg">
+      <PackagePath>images\background-code.jpg</PackagePath>
+      <Modified>2019-09-11T00:09:36.654</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\images\group-work.jpg">
+      <PackagePath>images\group-work.jpg</PackagePath>
+      <Modified>2019-09-04T20:09:07.014</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\images\github.png">
+      <PackagePath>images\github.png</PackagePath>
+      <Modified>2019-09-05T02:41:30.069</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\images\linkedin.png">
+      <PackagePath>images\linkedin.png</PackagePath>
+      <Modified>2019-09-05T02:33:13.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2019-09-11T17:42:31.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2019-09-11T02:37:33.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2019-09-11T17:39:12.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Owner\source\repos\PortfolioAPP\PortfolioAPP\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-09-11T00:18:45.144</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
