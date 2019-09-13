@@ -1,0 +1,170 @@
+﻿body {
+    touch-action: manipulation;
+    overflow: scroll;
+    font-size: 1em;
+    background-color: #4ABDAC;
+}
+
+#home {
+    background-image: url(../images/background-beverage.jpg);
+    /*background: linear-gradient(to right, #DFDCE3, transparent 90%), url(../images/background-beverage.jpg);*/
+    position: relative;
+    background-size: cover;
+    background-position: top right;
+    height: 800px;
+    /*padding: 25px;*/
+}
+
+#header-text {
+    position: absolute;
+    color: white;
+}
+
+h1 {
+    text-align: left;
+    font-size: 6em;
+    width: 100vmin;
+    color: white;
+    padding-bottom: 15px;
+}
+
+#job-title {
+    /*text-align: left;*/
+    font-size: 3em;
+    /*padding-bottom: 100px;*/
+    /*color: white;*/
+}
+
+#more-button {
+    width: 150px;
+    height: 25px;
+    position: center;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+    border: dashed;
+}
+
+.topnav {
+    background-color: #DFDCE3;
+    border-bottom: 10px solid ;
+    border-color: #F7B733;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 56px;
+    z-index: 9; /*keeps the content underneath from overlapping the navbar. Before, the portfolio item hover was overlapping with the navbar */
+}
+
+.topnav a {
+    display: block;
+    float:left;
+    font-weight: bold;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.topnav a:hover {
+    background-color: #FC4A1A;
+    color: white;
+}
+
+.topnav a:active {
+    background-color: #FC4A1A;
+    color: white;
+}
+
+.section {
+    position: static;
+    height: auto;
+    padding-top: 29px;
+    background-color: #4ABDAC;
+}
+
+.section-heading {
+    font-size: 3em;
+    text-align:center;
+    color: #FC4A1A;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.portfolio-item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: auto;
+    padding: 20px;
+}
+
+.portfolio-item:hover {
+    opacity: 0.75;
+}
+
+.portfolio-item-titles {
+    text-align: left;
+    font-size: 3.5em;
+    width: 50vmin;
+    color: white;
+    color: white;
+}
+
+#img-alexa {
+    background-image: url(../images/alexa.jpg);
+    background-size: cover;
+    background-position: right;
+    height: auto;
+}
+
+#img-me {
+    background-image: url(../images/asiabball.jpg);
+    background-size: cover;
+    height: auto;
+}
+
+#img-weather-app {
+    background: linear-gradient(to top right, #0099ff, #ffffff);
+}
+
+.img-icon {
+    width: 45px;
+    padding-right: 10px;
+}
+
+.contact-info {
+    text-align: center;
+    box-sizing: border-box;
+    border-bottom: 10px solid;
+    border-top: 10px solid;
+    border-color: #F7B733;
+    color: black;
+    width: inherit;
+    background-color: #DFDCE3;
+}
+
+a:link {
+    color: #4ABDAC;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4ABDAC;
+}
+
+a:hover {
+    color: #4ABDAC;
+}
+
+a:active {
+    color: #4ABDAC;
+}
+
+#footer {
+    height: 50px;
+}
