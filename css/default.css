@@ -107,6 +107,14 @@ h1 {
     opacity: 0.75;
 }
 
+.portfolio-item-titles {
+    text-align: left;
+    font-size: 3.5em;
+    width: 50vmin;
+    color: white;
+    color: white;
+}
+
 #img-alexa {
     background-image: url(../images/alexa.jpg);
     background-size: cover;
