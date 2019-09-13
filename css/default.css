@@ -15,23 +15,15 @@
     padding: 25px;
 }
 
-/*.code-bg {
-    background-size: cover;
-    position: relative;
-    height: 100%;
-    padding: 25px;
-    opacity: 0.35;
-}*/
-
 #header-text {
     position: absolute;
     color: white;
-    position: center;
 }
 
 h1 {
     text-align: left;
     font-size: 6em;
+    width: 100vmin;
     color: white;
     padding-bottom: 15px;
 }
@@ -62,7 +54,7 @@ h1 {
     top: 0;
     width: 100%;
     height: 56px;
-    z-index: 9;
+    z-index: 9; /*keeps the content underneath the navbar when hover and opacity */
 }
 
 .topnav a {
@@ -83,19 +75,6 @@ h1 {
     background-color: #FC4A1A;
     color: white;
 }
-
-/*.skills {
-    box-sizing: border-box;
-    width: 300px;
-    height: 200px;
-    background-color: navajowhite;
-    padding:5px;
-}
-
-#skills-section {
-
-}*/
-
 
 .section {
     position: static;
